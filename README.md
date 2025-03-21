@@ -6,7 +6,7 @@
 
 ```sh
 # Clone github repo
-git clone https://github.com/camel-ai/camel.git
+git clone https://github.com/Mini256/camel.git
 
 # Change directory into project directory
 cd camel
