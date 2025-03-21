@@ -1,0 +1,18 @@
+[project]
+name = "test-camel"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.10"
+dependencies = [
+    "camel-ai",
+    "pillow",
+    "notebook>=7.3.3",
+    "pytidb-experimental==0.0.1.dev4",
+    "pymysql>=1.1.1",
+    "requests-oauthlib>=2.0.0",
+    "pandas>=2.2.3",
+    "dotenv>=0.9.9",
+]
+
+[tool.uv.sources]
+camel-ai = { path = "../camel" }
